@@ -1,5 +1,5 @@
 {
-  "name": "minte",
+  "name": "mintea",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -23,6 +23,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-pwa": "^0.16.4",
+    "workbox-window": "^7.0.0"
   }
 }
