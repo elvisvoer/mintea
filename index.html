@@ -1,14 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-    <link rel="manifest" href="/site.webmanifest" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&display=swap" rel="stylesheet" />
+  <meta name="keywords" content="mintea, notes, reminder" />
+  <meta name="description" content="A notes app." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180X180" href="./public/apple-touch-icon.png" />
+  <meta name="theme-color" content="#171717" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="author" content="Elvis Adomnica" />
+  <title>Mintea</title>
+</head>
+
+<body style="height: 100%" class="scrollbar-page">
+  <div id="root" class="bg-background dark:bg-dark-background transition-colors duration-700 ease-out font-body"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>
